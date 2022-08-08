@@ -1,0 +1,17 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+
+  html { /* etiqueta raíz */
+    font-size: 62.5%;
+  }
+
+img,picture,video,iframe,figure{
+    max-width: 100%;
+    width: 100%;
+    display: block;
+
+}

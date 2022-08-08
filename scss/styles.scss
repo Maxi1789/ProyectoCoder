@@ -1,0 +1,36 @@
+@import "./layout/reset";
+@import "./utilities/variables";
+@import "./utilities/mixins";
+
+
+header{
+     .logo{
+        width: 60px;
+        height: 60px;
+     }
+     a{
+        font-size: 2rem;
+        font-weight: $fontWeight;
+     }
+     .nav-link{
+        color:red;
+     }
+}
+
+body{
+    background-color: $colorBody;
+}
+
+
+.fa-facebook-f {
+  color: #0059ff;
+ }
+
+.fa-instagram {
+  color: #ff3c00; }
+
+.fa-twitter {
+  color: #00a2ff; }
+
+
+
